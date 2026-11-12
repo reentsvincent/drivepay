@@ -35,7 +35,11 @@ importers:
 
   packages/shared: {}
 
-  packages/voice-dialog: {}
+  packages/voice-dialog:
+    dependencies:
+      '@drivepay/shared':
+        specifier: workspace:*
+        version: link:../shared
 
 packages:
 

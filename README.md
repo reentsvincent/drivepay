@@ -2,7 +2,7 @@
 
 > Arbeitsname. Sprachgesteuerte App, mit der LKW-Fahrer während der Fahrt nebenbei Geld verdienen: bezahlte Umfragen, Sprach- und KI-Trainingsaufgaben und ähnliche Micro-Tasks, komplett **ohne Hände und ohne Blick aufs Display**.
 
-**Status:** Meilenstein 1 (Fundament) fertig (siehe [docs/PLAN.md](docs/PLAN.md))
+**Status:** Meilenstein 2 (Voice-Dialog) fertig (siehe [docs/PLAN.md](docs/PLAN.md))
 
 ## Idee
 
