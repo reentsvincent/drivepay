@@ -2,7 +2,7 @@
 
 > Arbeitsname. Sprachgesteuerte App, mit der LKW-Fahrer während der Fahrt nebenbei Geld verdienen: bezahlte Umfragen, Sprach- und KI-Trainingsaufgaben und ähnliche Micro-Tasks, komplett **ohne Hände und ohne Blick aufs Display**.
 
-**Status:** Prototyp in Planung (siehe [docs/PLAN.md](docs/PLAN.md))
+**Status:** Meilenstein 1 (Fundament) fertig (siehe [docs/PLAN.md](docs/PLAN.md))
 
 ## Idee
 
@@ -22,14 +22,25 @@ Fernfahrer verbringen viele Stunden am Steuer, in denen Ohren und Stimme frei si
 
 ## Tech-Stack (geplant)
 
-| Bereich | Technologie |
-| --- | --- |
-| Mobile App | Expo / React Native (TypeScript) |
-| Backend / API | Node.js + TypeScript (Fastify) |
-| Datenbank | PostgreSQL (Prisma) |
-| Sprache → Text | Cloud-STT (z. B. Whisper-API / Deepgram) |
-| Text → Sprache | Cloud-TTS (z. B. ElevenLabs / OpenAI TTS) |
-| Dialog & Auswertung | Claude (Anthropic API) |
-| Monorepo | pnpm Workspaces |
+| Bereich             | Technologie                               |
+| ------------------- | ----------------------------------------- |
+| Mobile App          | Expo / React Native (TypeScript)          |
+| Backend / API       | Node.js + TypeScript (Fastify)            |
+| Datenbank           | PostgreSQL (Prisma)                       |
+| Sprache → Text      | Cloud-STT (z. B. Whisper-API / Deepgram)  |
+| Text → Sprache      | Cloud-TTS (z. B. ElevenLabs / OpenAI TTS) |
+| Dialog & Auswertung | Claude (Anthropic API)                    |
+| Monorepo            | pnpm Workspaces                           |
 
 Details und Begründungen stehen in [docs/PLAN.md](docs/PLAN.md).
+
+## Entwicklung
+
+Voraussetzungen: Node.js (siehe `.nvmrc`) und pnpm.
+
+```bash
+pnpm install   # Abhängigkeiten installieren
+pnpm check     # Formatierung, Linting, Typprüfung und Tests
+pnpm test      # nur Tests
+pnpm format    # Code automatisch formatieren
+```
